@@ -9,7 +9,7 @@ def setup():
 	global leftPWM, rightPWM, homePWM, pwm
 	leftPWM = 375
 	homePWM = 450
-	rightPWM = 575
+	rightPWM = 525
 	offset =0
 	try:
 		for line in open('config'):
